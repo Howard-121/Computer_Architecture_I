@@ -19,6 +19,7 @@ I use RTL to create a 16*32 register file with two 32-bit read ports, one 32-bit
 
 
 ![Figure 1](https://github.com/Howard-121/Computer_Architecture_I/blob/master/Register%20File/images/block%20diagram%20of%20regfile.png)
+
 Figure 1: Block diagram of a register file
 
 
