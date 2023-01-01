@@ -10,9 +10,15 @@ Lab 3 mainly includes two parts: pipelining and hazard addressing. In contrast w
 
 In this lab, I build the pipelined processor based on the single cycle processor that I did in Lab2 by inserting four pipeline registers, BranchTakenE signal and ALUResultE feedback for early BTA, ALUOutM and WA3W feedback for data forwarding, and a hazard unit for stalling and flushing, as seen in Figure 1.
  
-![Figure 1](https://github.com/Howard-121/Computer_Architecture_I/blob/master/ARM%20Pipelined%20Processor/images/Block%20Diagram.png)
 
+
+<p align = "center">
+<img src="https://github.com/Howard-121/Computer_Architecture_I/blob/master/ARM%20Pipelined%20Processor/images/Block%20Diagram.png" width="700" height="700" />
+<p align = "center">
 Figure 1: The block diagram of ARM Pipelined Processor
+
+
+
 
 Data Forwarding:
 
