@@ -17,9 +17,14 @@ Task #2
 
 The ALU I create is a combinational circuit with two 32-bit input values, one 2-bit control signal, one 32-bit output value, and one 4-bit ALUFlags, as seen in Figure 1.
 
-![Figure 1: Block diagram of a ALU](https://github.com/Howard-121/Computer_Architecture_I/blob/master/ALU/images/block%20diagram.png)
 
+
+
+<p align = "center">
+<img src="https://github.com/Howard-121/Computer_Architecture_I/blob/master/ALU/images/block%20diagram.png" width="650" height="650" />
+<p align = "center">
 Figure 1: Block diagram of a ALU
+
 
 
 When the two input values, a and b, are sent into the ALU, ALU will compute every operation (addition, subtraction, AND, OR). 
@@ -29,7 +34,10 @@ Besides, the ALU also records the attribute of Result, and it will be shown by t
 I create a test vector file, as seen in Table 1, and read the test vector file into the testbench by using readmemh.
 
 
-![Table 1: ALU operations](https://github.com/Howard-121/Computer_Architecture_I/blob/master/ALU/images/alu%20operations.png)
+
+<p align = "center">
+<img src="https://github.com/Howard-121/Computer_Architecture_I/blob/master/ALU/images/alu%20operations.png" width="650" height="750" />
+<p align = "center">
 Table 1: ALU operations
 
 
