@@ -13,7 +13,7 @@ In this lab, I build the pipelined processor based on the single cycle processor
 
 
 <p align = "center">
-<img src="https://github.com/Howard-121/Computer_Architecture_I/blob/master/ARM%20Pipelined%20Processor/images/Block%20Diagram.png" width="700" height="700" />
+<img src="https://github.com/Howard-121/Computer_Architecture_I/blob/master/ARM%20Pipelined%20Processor/images/Block%20Diagram.png" width="700" height="550" />
 <p align = "center">
 Figure 1: The block diagram of ARM Pipelined Processor
 
