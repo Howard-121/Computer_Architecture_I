@@ -28,9 +28,14 @@ Task #2
 In this task, I include the instructions of comparison (CMP) and conditional branches (BＸＸ) to the processor. As for CMP, since the instruction is similar to subtraction, and the only difference is the condition flag, I merge both together in the RTL code. If processor detects subtraction type of instruction and the condition flag (Instr[20] ) equals 1, the control signal, FlagWrite, will be asserted and the new register, FlagsReg stores ALUFlags. With the flags, the following branch is able to do conditional execution. First, Instr[31:28] is required to identify which conditional branch we’re going to execute. Second, I utilize the FlagsReg to check if the flag matches the condition. If they match, PC will jump to the expected address, otherwise the branch will be ignored. The PC sequence for the memfile2.dat is shown in Table2.
 
 
-![Table 2](https://github.com/Howard-121/Computer_Architecture_I/blob/master/Single_Cycle_Processor/images/PC%20sequence%20for%20the%20memfile2.png)
 
+<p align = "center">
+<img src="https://github.com/Howard-121/Computer_Architecture_I/blob/master/Single_Cycle_Processor/images/PC%20sequence%20for%20the%20memfile2.png" width="500" height="600" />
+<p align = "center">
 Table 2: PC sequence for the memfile2.dat
+
+
+
 
 Results:
 
