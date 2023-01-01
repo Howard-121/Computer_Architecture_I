@@ -18,8 +18,10 @@ Task #1
 I use RTL to create a 16*32 register file with two 32-bit read ports, one 32-bit write port, and asynchronous reading, as seen in Figure 1.
 
 
-![Figure 1](https://github.com/Howard-121/Computer_Architecture_I/blob/master/Register%20File/images/block%20diagram%20of%20regfile.png)
 
+<p align = "center">
+<img src="https://github.com/Howard-121/Computer_Architecture_I/blob/master/Register%20File/images/block%20diagram%20of%20regfile.png" width="550" height="450" />
+<p align = "center">
 Figure 1: Block diagram of a register file
 
 
